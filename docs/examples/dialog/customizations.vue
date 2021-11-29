@@ -91,7 +91,7 @@ export default defineComponent({
     })
 
     return {
-      ...toRefs(state),
+      toRefs(state),
     }
   },
 })
